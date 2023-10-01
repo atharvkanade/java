@@ -1,6 +1,6 @@
 public class ifelse {
     public static void main(String[] args) {
-        boolean issunup = false;
+        boolean issunup = true;
         if (issunup == true)
             System.out.println("Day");
 
