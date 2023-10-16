@@ -1,4 +1,4 @@
-public class Largest {
+public class Largest{
 
     public static void main(String[] args) {
 
