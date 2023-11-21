@@ -12,6 +12,9 @@ public class Mortgage {
         byte period = Scanner.nextByte();
 
         int p = principle;
+       /*12 months
+       100 for percentage*/
+        
         float i = (interest / 100 / 12);
         int y = (period * 12);
         float x = (float) Math.pow((1 + i), y);
