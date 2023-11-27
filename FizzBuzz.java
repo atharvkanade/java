@@ -1,4 +1,4 @@
-import java.util.Scanner;
+HBOimport java.util.Scanner;
 
 public class FizzBuzz {
     public static void main(String[] args) {
@@ -15,7 +15,6 @@ public class FizzBuzz {
 
         else
             System.out.println(num);
-
     }
 
 }
