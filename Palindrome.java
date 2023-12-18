@@ -1,4 +1,4 @@
-class Main {
+Public class Main {
   public static void main(String[] args) {
 
     String str = "Atharv", reverseStr = "";
