@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Main {
+class Main {
   public static void main(String[] args) {
     String str1 = "Race";
     String str2 = "Care";
@@ -10,6 +10,7 @@ public class Main {
 
     if(str1.length() == str2.length()) {
 
+      // convert strings to char array
       char[] charArray1 = str1.toCharArray();
       char[] charArray2 = str2.toCharArray();
 
