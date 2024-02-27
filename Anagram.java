@@ -2,8 +2,8 @@ import java.util.Arrays;
 
 class Main {
   public static void main(String[] args) {
-    String str1 = "Race";
-    String str2 = "Care";
+    String str1 = "Triangle";
+    String str2 = "Integral";
     
     str1 = str1.toLowerCase();
     str2 = str2.toLowerCase();
@@ -20,14 +20,14 @@ class Main {
       boolean result = Arrays.equals(charArray1, charArray2);
 
       if(result) {
-        System.out.println(str1 + " and " + str2 + " are anagram.");
+        System.out.println(str1 + " and " + str2 + " are anagram word.");
       }
       else {
-        System.out.println(str1 + " and " + str2 + " are not anagram.");
+        System.out.println(str1 + " and " + str2 + " are not anagram word .");
       }
     }
     else {
-      System.out.println(str1 + " and " + str2 + " are not anagram.");
+      System.out.println(str1 + " and " + str2 + " are not anagram word.");
     }
   }
 }
