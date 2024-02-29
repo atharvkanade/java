@@ -1,7 +1,7 @@
-Public class Main {
+Public class Palindrome {
   public static void main(String[] args) {
 
-    String str = "Atharv", reverseStr = "";
+    String str = "Comic", reverseStr = "";
     
     int strLength = str.length();
 
