@@ -1,6 +1,6 @@
 public class Armstrong {
     public static void main(String[] args) {
-        int number = 371, originalNumber, remainder, result = 0;
+        int number = 731, originalNumber, remainder, result = 0;
         originalNumber = number;
         while (originalNumber != 0)
         {
@@ -9,7 +9,7 @@ public class Armstrong {
             originalNumber /= 10;
         }
         if(result == number)
-            System.out.println(number + " is an Armstrong number.");
+            System.out.println("The given "number + " is an Armstrong number.");
         else
-            System.out.println(number + " is not an Armstrong number.");
+            System.out.println("The given"number + " is not an Armstrong number.");
     }
