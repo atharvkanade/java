@@ -1,9 +1,9 @@
 // main function
-public class practice {
+public class encapsulation {
     public static void main(String[] args) {
         var employee = new employee();
-        employee.basesalary = 45000;
-        employee.hourlyrate = 60;
+        employee.basesalary = 15000;
+        employee.hourlyrate = 50;
         int wage = employee.calculatewage(10);
         System.out.println(wage);
     }
