@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
-class Simpintrest {
+public class Simpinterest {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
-    System.out.print("Enter the principal: ");
+    System.out.print("Enter the principal amount : ");
     double principal = input.nextDouble();
 
-    System.out.print("Enter the rate: ");
+    System.out.print("Enter the rate of interest : ");
     double rate = input.nextDouble();
 
     System.out.print("Enter the time: ");
@@ -17,7 +17,7 @@ class Simpintrest {
     System.out.println("Principal: " + principal);
     System.out.println("Interest Rate: " + rate);
     System.out.println("Time Duration: " + time);
-    System.out.println("Simple Interest: " + interest);
+    System.out.println("Simple Interest is : " + interest);
 
     input.close();
   }
