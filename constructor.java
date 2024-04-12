@@ -1,10 +1,8 @@
 public class constructor {
   private String name;
-
-  // constructor
   Main() {
     System.out.println("Constructor Called:");
-    name = "Programiz";
+    name = "Atharv";
   }
 
   public static void main(String[] args) {
