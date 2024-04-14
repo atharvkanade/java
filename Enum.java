@@ -6,16 +6,16 @@ enum Size{
 
   switch(this) {
     case SMALL:
-      return "small";
+      return "Small";
 
     case MEDIUM:
-      return "medium";
+      return "Medium";
 
     case LARGE:
-      return "large";
+      return "Large";
 
     case EXTRALARGE:
-      return "extra large";
+      return "Extra Large";
 
     default:
       return null;
@@ -24,8 +24,8 @@ enum Size{
 
   public static void main(String[] args) {
 
-     System.out.println("The size of Pizza I get is " + Size.SMALL.getSize());
+     System.out.println("The size of Burger I get is " + Size.SMALL.getSize());
 
-     System.out.println("The size of Pizza I want is " + Size.LARGE.getSize());
+     System.out.println("The size of Burger I want is " + Size.LARGE.getSize());
   }
 }
