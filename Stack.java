@@ -1,15 +1,15 @@
 import java.util.Stack;
 
-class Main {
+class Stack {
   public static void main(String[] args) {
 
    
     Stack<String> animals= new Stack<>();
 
    
-    animals.push("Dog");
-    animals.push("Horse");
-    animals.push("Cat");
+    animals.push("Bullock");
+    animals.push("Deer");
+    animals.push("Peacock");
     System.out.println("Stack: " + animals);
 
     
