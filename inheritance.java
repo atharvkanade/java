@@ -1,12 +1,12 @@
 public class inheritance {
   String name;
   public void eat() {
-    System.out.println("I can eat");
+    System.out.println("I can dance");
   }
 }
 class Dog extends Animal {
   public void display() {
-    System.out.println("My name is " + name);
+    System.out.println("The name of my college is " + name);
   }
 }
 
@@ -15,7 +15,7 @@ class Main {
 
     Dog labrador = new Dog();
 
-    labrador.name = "Rohu";
+    labrador.name = "Shaktiman";
     labrador.display();
 
     labrador.eat();
