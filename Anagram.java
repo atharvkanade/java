@@ -1,9 +1,9 @@
 import java.util.Arrays;
 
-class Main {
+public class Anagram {
   public static void main(String[] args) {
-    String str1 = "Triangle";
-    String str2 = "Integral";
+    String str1 = "Silent";
+    String str2 = "Listen";
     
     str1 = str1.toLowerCase();
     str2 = str2.toLowerCase();
