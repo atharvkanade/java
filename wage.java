@@ -1,9 +1,9 @@
-public class practice {
+public class wage {
     public static void main(String[] args) {
 
-        int basesalary = 20000;
-        int extrahours = 10;
-        int hourlyrate = 100;
+        int basesalary = 300000;
+        int extrahours = 12;
+        int hourlyrate = 1000;
 
         int wage = calculatewage(basesalary, extrahours, hourlyrate);
         System.out.println(wage);
