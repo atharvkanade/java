@@ -1,9 +1,9 @@
-public class Reverse {
+public class senreverse {
 
   public static void main(String[] args) {
-    String sentence = "Go work";
+    String sentence = "Welcome everyone ";
     String reversed = reverse(sentence);
-    System.out.println("The reversed sentence is: " + reversed);
+    System.out.println("The sentence after reversing is: " + reversed);
   }
 
   public static String reverse(String sentence) {
