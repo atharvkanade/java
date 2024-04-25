@@ -3,7 +3,7 @@ HBOimport java.util.Scanner;
 public class FizzBuzz {
     public static void main(String[] args) {
         Scanner Scanner = new Scanner(System.in);
-        System.out.println("Enter the number :");
+        System.out.println("Enter the digit :");
         int num = Scanner.nextInt();
 
         if (num % 5 == 0 && num % 3 == 0)
