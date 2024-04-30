@@ -1,8 +1,8 @@
 // main class
-public class practice {
+public class getset {
     public static void main(String[] args) {
         var employee = new employee();
-        employee.setBasesalary(50000);
+        employee.setBasesalary(35000);
         employee.setHourlyrate(50);
         int wage = employee.calculatewage(10);
         System.out.println(wage);
